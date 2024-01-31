@@ -1,4 +1,3 @@
-bash scripts/index.sh res/contaminants.fasta res/contaminants_idx
 if [ "$#" -lt 3 ]; then
     echo "Usage: $0 <samples_directory> <output_directory> <sample_id>"
     exit 1
